@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Overpass', sans-serif;
-
 }
 
 :root{
@@ -34,6 +33,10 @@ main{
     border-radius: 15px;
 }
 
+.one{
+    display: none;
+}
+
 h1{
     color: var(--White);
     margin-top: 15px;
@@ -51,8 +54,6 @@ img{
     background: var(--Dark-Blue-icon);
     border-radius: 50%;
     padding: .8em;
-    
-    
 }
 
 .description{
@@ -102,6 +103,23 @@ img{
     color: hsl(25, 98%, 54%);
     transform: translateY(-3px);
   }
+
+.container_two{
+    height:370px;
+    width: 330px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(211, 33%, 17%));
+    display: grid;
+    padding: 1.1em;
+    border-radius: 15px;
+}
+
+.img_thanks{
+    margin-left: 40px;
+    background-image: none;
+    max-width: 100%;
+    height: auto;
+    
+}
 
 
     
